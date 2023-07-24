@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[tool.poetry]
+name = "PyFaudit"
+version = "0.1.0"
+description = "A Python utility to scan Python files, check encoding issues, and provide a file summary."
+authors = ["Mr. Mendez"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[[tool.poetry.scripts]]
+PyFaudit = 'PyFaudit.scanner:main'
+pyfaudit = 'PyFaudit.scanner:main'
