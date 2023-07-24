@@ -1,0 +1,18 @@
+[project]
+name = "PyFaudit"
+version = "0.1.0"
+description = "A python package to scan Python files, check encoding issues and provide an audit summary"
+readme = "README.md"
+authors = [{name = "Mr. Mendez", email = "info@mrmendez.dev"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+
+[project.urls]
+Source = "https://github.com/justmrmendez/PyFaudit"
+Home = "https://github.com/justmrmendez/PyFaudit"
+Documentation = "https://github.com/justmrmendez/PyFaudit"
+
+[build-system]
+requires = ["setuptools", "wheel"]
